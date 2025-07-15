@@ -190,6 +190,5 @@ Future<List<Booking>> fetchMerchantBookings(String token) async {
     final bookings = data['bookings'] as List<dynamic>;
     return bookings.map((b) => Booking.fromJson(b)).toList();
   } else {
-    throw Exception('Failed to fetch bookings: ${response.body}');
-  }
+    throw Exception('Failed to fetch bookings: ${response.body}');  }
 }

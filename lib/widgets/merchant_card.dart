@@ -35,6 +35,7 @@ class MerchantCard extends StatelessWidget {
                   outletName: merchant.outletName,
                   token: token,
                   customerId: customerId, // <--- good!
+                  profileImageUrl: merchant.logoUrl,
                 ),
           ),
         );

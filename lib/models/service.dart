@@ -32,4 +32,6 @@ class Service {
       isActive: json['isActive'] ?? true,
     );
   }
+
+  get serviceImageUrl => null;
 }
